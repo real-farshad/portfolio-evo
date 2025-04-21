@@ -10,8 +10,8 @@ const kanit = Kanit({
 });
 
 export const metadata: Metadata = {
-  title: "M0hammadr3za Portfolio",
-  description: "M0hammadr3za Software Engineering(Web Development) Portfolio",
+  title: "Farshad Portfolio",
+  description: "Farshad Software Engineering(Web Development) Portfolio",
 };
 
 export default function RootLayout({

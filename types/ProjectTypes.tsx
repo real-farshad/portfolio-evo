@@ -3,7 +3,7 @@ export default interface ProjectTypes {
   title: string;
   imageUrl: string;
   liveDemo: string;
-  githubRepo: string;
+  githubRepo?: string;
   frontTechStack: string;
   backTechStack: string;
   description: string;

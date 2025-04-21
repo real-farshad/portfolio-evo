@@ -33,8 +33,8 @@ const Socials = () => {
           <div>
             <RegularText>
               My Github:{" "}
-              <RegularLink to="https://github.com/m0hammadr3za">
-                m0hammadr3za
+              <RegularLink to="https://github.com/real-farshad">
+                real-farshad
               </RegularLink>
             </RegularText>
           </div>

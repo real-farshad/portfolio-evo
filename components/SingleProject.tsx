@@ -38,9 +38,11 @@ const SingleProject = ({ data }: SingleProjectProps) => {
 
       <div className={st["single-project__secondary-info"]}>
         <div className={st["single-project__links"]}>
-          <div>
-            <RegularLink to={githubRepo}>Github Repository</RegularLink>
-          </div>
+          {githubRepo && (
+            <div>
+              <RegularLink to={githubRepo}>Github Repository</RegularLink>
+            </div>
+          )}
 
           <div>
             <RegularLink to={liveDemo}>Live Demo</RegularLink>

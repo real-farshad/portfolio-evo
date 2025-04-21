@@ -1,9 +1,13 @@
+import { calculateAge } from "@/utils/calculateAge";
 import RegularText from "./RegularText";
 import PrimaryTitle from "./PrimaryTitle";
 import SecondaryTitle from "./SecondaryTitle";
 import st from "@/styles/About.module.scss";
 
 const About = () => {
+  const birthDate = "1999-04-25";
+  const age = calculateAge(birthDate);
+
   return (
     <div className={st["about"]} id="about">
       <div className={st["about__titles"]}>
@@ -20,7 +24,7 @@ const About = () => {
       <div className={st["about__text"]}>
         <div>
           <RegularText>
-            {`I'm A 23 Years Old Full-Stack Web Developer.`}{" "}
+            {`I'm A ${age} Years Old Full-Stack Web Developer.`}{" "}
             <br className={st["about__break"]} />
             {`I Love
                         Programming, Solving Problems And Learning`}{" "}
@@ -55,7 +59,7 @@ const About = () => {
             UX And UI Design, Graphic Design, Art, Writing, Etc.
           </RegularText>
           <RegularText>I Currently Live In Kermanshah, Iran.</RegularText>
-          <RegularText>And I Can Speak Both English And Persian.</RegularText>
+          <RegularText>And I Can Speak Both English And Farsi.</RegularText>
         </div>
       </div>
     </div>

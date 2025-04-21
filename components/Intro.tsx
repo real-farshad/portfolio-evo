@@ -41,7 +41,7 @@ const Intro = () => {
         </RegularText>
         <RegularText>
           Want A Short And Official Version?{" "}
-          <RegularLink to="/resume.pdf">Download Resume</RegularLink>
+          <RegularLink to="/Farshad_Resume.pdf">Download Resume</RegularLink>
         </RegularText>
       </div>
     </div>
