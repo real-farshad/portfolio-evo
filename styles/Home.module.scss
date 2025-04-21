@@ -11,6 +11,8 @@
 }
 
 .home__blur-container {
+  padding: 5px;
+
   @include min-width-md {
     padding: 30px;
   }
@@ -57,11 +59,10 @@
 }
 
 .home__footer {
-  display: none;
+  margin-top: 10px;
 
   @include min-width-md {
     display: inline-block;
-    margin-top: 10px;
   }
 
   @include min-width-lg {

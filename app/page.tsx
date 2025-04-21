@@ -34,17 +34,13 @@ const Home = () => {
 
               <Socials />
             </main>
-
-            <div className={st["home__copyright"]}>
-              <RegularText>Designed And Developed By m0hammadr3za</RegularText>
-            </div>
           </div>
         </BlurContainer>
 
         <footer className={st["home__footer"]}>
           <BlurContainer>
             <div className={st["home__footer-text"]}>
-              <RegularText>Designed And Developed By m0hammadr3za</RegularText>
+              <RegularText>Designed And Developed By real-farshad</RegularText>
             </div>
           </BlurContainer>
         </footer>

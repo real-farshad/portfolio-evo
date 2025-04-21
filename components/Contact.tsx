@@ -20,14 +20,16 @@ const Contact = () => {
 
       <div className={st["contact__text"]}>
         <RegularText>
-          If You Have Any Other Questions About Me Or There Is Something You
-          Want To Talk To Me About Feel Free To Get In Touch.
+          If You Have Any Other Questions About Me Or There's Something You Want
+          To Talk To Me About Feel{" "}
+          <br className={st["contact__text-line-break"]} />
+          Free To Get In Touch.
         </RegularText>
         <RegularText>My Phone Number: (+98) 09027553035</RegularText>
         <RegularText>
           My Email Address:{" "}
-          <a href="mailto:m0hammadr3za.dev@gmail.com">
-            M0hammadr3za.Dev@Gmail.Com
+          <a href="mailto:farshad.dev.contact@gmail.com">
+            Farshad.dev.contact@gmail.com
           </a>
         </RegularText>
       </div>

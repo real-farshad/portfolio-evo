@@ -1,0 +1,37 @@
+@use "breakpoints" as *;
+
+.projects-intro {
+  position: relative;
+}
+
+.projects-intro__image {
+  max-width: 552px;
+  position: absolute;
+  bottom: -30px;
+  left: -55px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.projects-intro__info {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.projects-intro__text--first {
+  max-width: 442px;
+  margin-left: auto;
+}
+
+.projects-intro__text-line-break {
+  display: block;
+}
+
+.projects-intro__text--second {
+  max-width: 448px;
+  margin-left: auto;
+}
