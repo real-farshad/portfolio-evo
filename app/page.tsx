@@ -1,4 +1,3 @@
-import getProjects from "../utils/getProjects";
 import About from "@/components/About";
 import BlurContainer from "@/components/BlurContainer";
 import Contact from "@/components/Contact";
@@ -11,8 +10,6 @@ import Socials from "@/components/Socials";
 import st from "@/styles/Home.module.scss";
 
 const Home = () => {
-  const projects = getProjects();
-
   return (
     <div>
       <div className={st["home__background"]}>
@@ -31,7 +28,7 @@ const Home = () => {
             <main>
               <About />
 
-              <Projects data={projects} />
+              <Projects />
 
               <Contact />
 

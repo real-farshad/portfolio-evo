@@ -1,14 +1,12 @@
 import PrimaryTitle from "./PrimaryTitle";
 import SecondaryTitle from "./SecondaryTitle";
-import SingleProject from "./SingleProject";
 import st from "@/styles/Projects.module.scss";
-import ProjectTypes from "@/types/ProjectTypes";
 
-interface ProjectsProps {
-  data: ProjectTypes[];
-}
+import Troweb from "./projects/Troweb";
+import Wallpapers from "./projects/Wallpapers";
+import Queries from "./projects/Queries";
 
-const Projects = ({ data }: ProjectsProps) => {
+const Projects = () => {
   return (
     <div className={st["projects"]} id="projects">
       <div className={st["projects__section-titles"]}>
@@ -19,11 +17,17 @@ const Projects = ({ data }: ProjectsProps) => {
       </div>
 
       <div className={st["projects__cards"]}>
-        {data.map((project) => (
-          <div key={project.title} className={st["projects__single-project"]}>
-            <SingleProject data={project} />
-          </div>
-        ))}
+        <div className={st["projects__single-project"]}>
+          <Troweb />
+        </div>
+
+        <div className={st["projects__single-project"]}>
+          <Wallpapers />
+        </div>
+
+        <div className={st["projects__single-project"]}>
+          <Queries />
+        </div>
       </div>
     </div>
   );
