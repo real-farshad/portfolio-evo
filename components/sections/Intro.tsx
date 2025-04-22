@@ -1,7 +1,7 @@
-import PrimaryTitle from "./PrimaryTitle";
-import RegularLink from "./RegularLink";
-import RegularText from "./RegularText";
-import SecondaryTitle from "./SecondaryTitle";
+import PrimaryTitle from "../PrimaryTitle";
+import RegularLink from "../RegularLink";
+import RegularText from "../RegularText";
+import SecondaryTitle from "../SecondaryTitle";
 import st from "@/styles/Intro.module.scss";
 
 const Intro = () => {

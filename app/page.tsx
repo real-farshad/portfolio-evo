@@ -2,7 +2,7 @@ import About from "@/components/sections/About";
 import BlurContainer from "@/components/BlurContainer";
 import Contact from "@/components/sections/Contact";
 import CoverImage from "@/components/CoverImage";
-import Intro from "@/components/Intro";
+import Intro from "@/components/sections/Intro";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/sections/Projects";
 import RegularText from "@/components/RegularText";
