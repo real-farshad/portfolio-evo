@@ -2,6 +2,7 @@ import { calculateAge } from "@/utils/calculateAge";
 import RegularText from "../RegularText";
 import PrimaryTitle from "../PrimaryTitle";
 import SecondaryTitle from "../SecondaryTitle";
+import BreakLine from "../BreakLineXL";
 import st from "@/styles/About.module.scss";
 
 const About = () => {
@@ -24,15 +25,11 @@ const About = () => {
       <div className={st["about__text"]}>
         <div>
           <RegularText>
-            {`I'm A ${age} Years Old Full-Stack Web Developer.`}{" "}
-            <br className={st["about__break"]} />
-            {`I Love Programming, Solving Problems And Learning`}{" "}
-            <br className={st["about__break"]} />
-            {`New Things. I've Been Coding For 5 Years And`}{" "}
-            <br className={st["about__break"]} />
-            {`Have Worked On Many Different Projects,`}{" "}
-            <br className={st["about__break"]} />
-            {`Mostly Web Applications.`}
+            I'm A {age} Years Old Full-Stack Web Developer. <BreakLine />I Love
+            Programming, Solving Problems And Learning <BreakLine />
+            New Things. I've Been Coding For 5 Years And <BreakLine />
+            Have Worked On Many Different Projects, <BreakLine />
+            Mostly Web Applications.
           </RegularText>
         </div>
 
@@ -51,8 +48,7 @@ const About = () => {
 
         <div className={st["about__more"]}>
           <RegularText>
-            I'm Also Interested In: Trending Technologies,{" "}
-            <br className={st["about__break"]} />
+            I'm Also Interested In: Trending Technologies, <BreakLine />
             UX And UI Design, Graphic Design, 3D Modeling, Etc.
           </RegularText>
           <RegularText>I Currently Live In Kermanshah, Iran.</RegularText>

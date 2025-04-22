@@ -1,3 +1,4 @@
+import BreakLineXL from "../BreakLineXL";
 import PrimaryTitle from "../PrimaryTitle";
 import RegularText from "../RegularText";
 import SecondaryTitle from "../SecondaryTitle";
@@ -21,8 +22,7 @@ const Contact = () => {
       <div className={st["contact__text"]}>
         <RegularText>
           If You Have Any Other Questions About Me Or There's Something You Want
-          To Talk To Me About Feel{" "}
-          <br className={st["contact__text-line-break"]} />
+          To Talk To Me About Feel <BreakLineXL />
           Free To Get In Touch.
         </RegularText>
         <RegularText>My Phone Number: (+98) 09027553035</RegularText>

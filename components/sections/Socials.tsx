@@ -21,9 +21,10 @@ const Socials = () => {
 
       <div className={st["socials__info"]}>
         <RegularText>
-          {`Please Don't Use My Social Media To Contact Me, I Probably
-                    Won't Be Able To Reply Anytime Soon.`}
+          Please Don't Use My Social Media To Contact Me, I Probably Won't Be
+          Able To Reply Anytime Soon.
         </RegularText>
+
         <RegularText>
           However Feel Free To Take A Look At My Social Media, I Try To Post
           Programming Related Content Whenever I Have Some Free Time.
@@ -38,10 +39,11 @@ const Socials = () => {
               </RegularLink>
             </RegularText>
           </div>
+
           <div>
             <RegularText>
               My LinkedIn:{" "}
-              <RegularLink to="www.linkedin.com/in/real-farshad">
+              <RegularLink to="https://www.linkedin.com/in/real-farshad/">
                 linkedin.com/in/real-farshad
               </RegularLink>
             </RegularText>

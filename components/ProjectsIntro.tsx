@@ -21,8 +21,7 @@ const ProjectsIntro = () => {
         <div className={st["projects-intro__text--first"]}>
           <RegularText>
             I Had A Lot Of Fun Working On These Projects. In Building Each One
-            Of Them, I Tried To Use Modern And Industry-Leading Tools.{" "}
-            <br className={st["projects-intro__text-line-break"]} />
+            Of Them, I Tried To Use Modern And Industry-Leading Tools. <br />
             From The Very Beginning, I Did A Lot Of Research And Practice To
             Make Sure That I Write Clean Code And Structure My Projects For
             Reliability And Maintenance.

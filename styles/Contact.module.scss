@@ -72,11 +72,3 @@
     margin-top: 30px;
   }
 }
-
-.contact__text-line-break {
-  display: none;
-
-  @include min-width-xl {
-    display: block;
-  }
-}

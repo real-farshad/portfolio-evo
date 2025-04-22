@@ -77,14 +77,6 @@
   }
 }
 
-.about__break {
-  display: none;
-
-  @include min-width-xl {
-    display: block;
-  }
-}
-
 .about__skills,
 .about__more {
   margin-top: 20px;

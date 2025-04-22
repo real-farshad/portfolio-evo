@@ -12,7 +12,7 @@ const Queries = () => {
         </div>
 
         <div className={st["single-project__project-title"]}>
-          <ProjectTitle>Full-Stack Query Web Application</ProjectTitle>
+          <ProjectTitle>Queries Full-Stack Web Application</ProjectTitle>
         </div>
       </div>
 
@@ -40,6 +40,7 @@ const Queries = () => {
             <RegularText>
               Front-End Was Built Using Typescript, React, Redux, Sass And Jest.
             </RegularText>
+
             <RegularText>
               Back-End Was Built Using Typescript, Node.Js, Express, Joi And
               Mongodb Nodejs Driver.

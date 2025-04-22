@@ -12,7 +12,7 @@ const Wallpapers = () => {
         </div>
 
         <div className={st["single-project__project-title"]}>
-          <ProjectTitle>Full-Stack Wallpapers Web Application</ProjectTitle>
+          <ProjectTitle>Wallpapers Full-Stack Web Application</ProjectTitle>
         </div>
       </div>
 
@@ -41,6 +41,7 @@ const Wallpapers = () => {
               Front-End Was Built Using Typescript, React React Router, Context,
               Sass.
             </RegularText>
+
             <RegularText>
               Back-End Was Built Using Javascript, Node.Js, Express, Mongodb
               Nodejs Driver, Passport, Sessions, Joi, Bcrypt, Dotenv And Jest.

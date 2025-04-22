@@ -1,0 +1,9 @@
+@use "breakpoints" as *;
+
+.break-line-xl {
+  display: none;
+
+  @include min-width-xl {
+    display: block;
+  }
+}

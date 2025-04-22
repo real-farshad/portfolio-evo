@@ -27,18 +27,22 @@ const Intro = () => {
           Working On Creative Projects Excites Me
           <span className={st["intro__separator"]}>|</span>
         </RegularText>
+
         <RegularText>
           I Try To Make Things That People Enjoy Using
           <span className={st["intro__separator"]}>|</span>
         </RegularText>
+
         <RegularText>
           {`I'm Pretty Good At Learning New Things`}
           <span className={st["intro__separator"]}>|</span>
         </RegularText>
+
         <RegularText>
           {`I'm Always Energetic When Working With Others`}
           <span className={st["intro__separator"]}>|</span>
         </RegularText>
+
         <RegularText>
           Want A Short And Official Version?{" "}
           <RegularLink to="/Farshad_Resume.pdf">Download Resume</RegularLink>
