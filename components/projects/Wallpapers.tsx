@@ -8,7 +8,7 @@ const Wallpapers = () => {
     <div>
       <div className={st["single-project__primary-info"]}>
         <div className={st["single-project__date"]}>
-          <RegularText>March 2022</RegularText>
+          <RegularText>March 2024</RegularText>
         </div>
 
         <div className={st["single-project__project-title"]}>

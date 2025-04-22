@@ -1,7 +1,7 @@
-import PrimaryTitle from "./PrimaryTitle";
-import RegularLink from "./RegularLink";
-import RegularText from "./RegularText";
-import SecondaryTitle from "./SecondaryTitle";
+import PrimaryTitle from "../PrimaryTitle";
+import RegularLink from "../RegularLink";
+import RegularText from "../RegularText";
+import SecondaryTitle from "../SecondaryTitle";
 import st from "@/styles/Socials.module.scss";
 
 const Socials = () => {
@@ -34,15 +34,15 @@ const Socials = () => {
             <RegularText>
               My Github:{" "}
               <RegularLink to="https://github.com/real-farshad">
-                real-farshad
+                github.com/real-farshad
               </RegularLink>
             </RegularText>
           </div>
           <div>
             <RegularText>
               My LinkedIn:{" "}
-              <RegularLink to="https://www.linkedin.com/in/mohammad-reza-gholami-4063a5239/">
-                Mohammad Reza Gholami
+              <RegularLink to="www.linkedin.com/in/real-farshad">
+                linkedin.com/in/real-farshad
               </RegularLink>
             </RegularText>
           </div>

@@ -1,7 +1,7 @@
 import { calculateAge } from "@/utils/calculateAge";
-import RegularText from "./RegularText";
-import PrimaryTitle from "./PrimaryTitle";
-import SecondaryTitle from "./SecondaryTitle";
+import RegularText from "../RegularText";
+import PrimaryTitle from "../PrimaryTitle";
+import SecondaryTitle from "../SecondaryTitle";
 import st from "@/styles/About.module.scss";
 
 const About = () => {
@@ -26,16 +26,13 @@ const About = () => {
           <RegularText>
             {`I'm A ${age} Years Old Full-Stack Web Developer.`}{" "}
             <br className={st["about__break"]} />
-            {`I Love
-                        Programming, Solving Problems And Learning`}{" "}
+            {`I Love Programming, Solving Problems And Learning`}{" "}
             <br className={st["about__break"]} />
-            {`New Things.
-                        I've Been Coding For 3 Years And`}{" "}
+            {`New Things. I've Been Coding For 5 Years And`}{" "}
             <br className={st["about__break"]} />
-            {`Worked On Many Projects
-                        Utilizing`}{" "}
+            {`Have Worked On Many Different Projects,`}{" "}
             <br className={st["about__break"]} />
-            {`Modern Technologies.`}
+            {`Mostly Web Applications.`}
           </RegularText>
         </div>
 
@@ -45,18 +42,18 @@ const About = () => {
             Html, Css, Sass, Javascript, Typescript, Python And C
           </RegularText>
           <RegularText>
-            React, Redux, React Router, Next.Js, Node.Js, Express, Mongodb
-            Node.Js Driver, Mongoose, Passport, Joi, Jest, React Testing
-            Library, Supertest, Express Sessions
+            Next, Remix, GraphQL, Storybook, Styled-Components, React Query,
+            Node, Express, Nest, Mongodb, PostgreSQL, Passport, Jest, React
+            Testing Library, Supertest
           </RegularText>
-          <RegularText>Vscode, Git, Github</RegularText>
+          <RegularText>Linux, Vscode, Git, Github</RegularText>
         </div>
 
         <div className={st["about__more"]}>
           <RegularText>
-            I Also Really Like: Reading, Learning,{" "}
+            I'm Also Interested In: Trending Technologies,{" "}
             <br className={st["about__break"]} />
-            UX And UI Design, Graphic Design, Art, Writing, Etc.
+            UX And UI Design, Graphic Design, 3D Modeling, Etc.
           </RegularText>
           <RegularText>I Currently Live In Kermanshah, Iran.</RegularText>
           <RegularText>And I Can Speak Both English And Farsi.</RegularText>

@@ -1,9 +1,9 @@
-import ProjectsIntro from "./ProjectsIntro";
+import ProjectsIntro from "../ProjectsIntro";
 import st from "@/styles/Projects.module.scss";
 
-import Troweb from "./projects/Troweb";
-import Wallpapers from "./projects/Wallpapers";
-import Queries from "./projects/Queries";
+import Troweb from "../projects/Troweb";
+import Wallpapers from "../projects/Wallpapers";
+import Queries from "../projects/Queries";
 
 const Projects = () => {
   return (

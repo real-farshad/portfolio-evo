@@ -1,17 +1,17 @@
-import About from "@/components/About";
+import About from "@/components/sections/About";
 import BlurContainer from "@/components/BlurContainer";
-import Contact from "@/components/Contact";
+import Contact from "@/components/sections/Contact";
 import CoverImage from "@/components/CoverImage";
 import Intro from "@/components/Intro";
 import Navbar from "@/components/Navbar";
-import Projects from "@/components/Projects";
+import Projects from "@/components/sections/Projects";
 import RegularText from "@/components/RegularText";
-import Socials from "@/components/Socials";
+import Socials from "@/components/sections/Socials";
 import st from "@/styles/Home.module.scss";
 
 const Home = () => {
   return (
-    <div>
+    <div className={st["home"]}>
       <div className={st["home__background"]}>
         <CoverImage src="/background.jpg" />
       </div>

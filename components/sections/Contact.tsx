@@ -1,6 +1,6 @@
-import PrimaryTitle from "./PrimaryTitle";
-import RegularText from "./RegularText";
-import SecondaryTitle from "./SecondaryTitle";
+import PrimaryTitle from "../PrimaryTitle";
+import RegularText from "../RegularText";
+import SecondaryTitle from "../SecondaryTitle";
 import st from "@/styles/Contact.module.scss";
 
 const Contact = () => {
@@ -29,7 +29,7 @@ const Contact = () => {
         <RegularText>
           My Email Address:{" "}
           <a href="mailto:farshad.dev.contact@gmail.com">
-            Farshad.dev.contact@gmail.com
+            farshad.dev.contact@gmail.com
           </a>
         </RegularText>
       </div>

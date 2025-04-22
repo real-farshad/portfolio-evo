@@ -1,5 +1,9 @@
 @use "breakpoints" as *;
 
+.home {
+  overflow-x: hidden;
+}
+
 .home__background {
   position: fixed;
   top: 0;
