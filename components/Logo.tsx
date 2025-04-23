@@ -4,7 +4,7 @@ import st from "@/styles/Logo.module.scss";
 const Logo = () => {
   return (
     <Link className={st["logo"]} href="/">
-      M0hammadr3za.
+      Real-Farshad.
     </Link>
   );
 };

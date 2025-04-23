@@ -1,3 +1,4 @@
+import BreakLineXL from "../BreakLineXL";
 import PrimaryTitle from "../PrimaryTitle";
 import RegularLink from "../RegularLink";
 import RegularText from "../RegularText";
@@ -7,46 +8,55 @@ import st from "@/styles/Intro.module.scss";
 const Intro = () => {
   return (
     <div className={st["intro"]}>
-      <div className={st["intro__titles"]}>
-        <SecondaryTitle>Hello!</SecondaryTitle>
-        <SecondaryTitle>My Name Is Mohammad Reza Gholami,</SecondaryTitle>
-
+      <div className={st["intro__description"]}>
         <div className={st["intro__primary-title"]}>
-          <PrimaryTitle>{`I'M A SOFTWARE ENGINEER`}</PrimaryTitle>
+          <PrimaryTitle>Hello There!</PrimaryTitle>
+
+          <SecondaryTitle>
+            My Name Is Mohammad Reza Gholami <BreakLineXL />
+            My Friends Call Me Just Farshad
+          </SecondaryTitle>
         </div>
 
-        <SecondaryTitle>And This Is My Portfolio.</SecondaryTitle>
-      </div>
+        <div className={st["intro__secondary-title"]}>
+          <SecondaryTitle>
+            I'm A Software Engineer And <BreakLineXL />
+            This Is My Portfolio
+          </SecondaryTitle>
+        </div>
 
-      <div className={st["intro__image-container"]}>
-        <img className={st["intro__cat-img"]} src="/cat.png" alt="cat" />
-      </div>
+        <div className={st["intro__about-me"]}>
+          <RegularText>
+            I Want To Make Awesome Things Other <BreakLineXL />
+            People Enjoy Using.
+          </RegularText>
 
-      <div className={st["intro__notes"]}>
-        <RegularText>
-          Working On Creative Projects Excites Me
-          <span className={st["intro__separator"]}>|</span>
-        </RegularText>
+          <RegularText>
+            I'd Love To Work In A Team And make Even More <BreakLineXL />
+            Amazing Stuff While Having Fun Doing It.
+          </RegularText>
 
-        <RegularText>
-          I Try To Make Things That People Enjoy Using
-          <span className={st["intro__separator"]}>|</span>
-        </RegularText>
-
-        <RegularText>
-          {`I'm Pretty Good At Learning New Things`}
-          <span className={st["intro__separator"]}>|</span>
-        </RegularText>
-
-        <RegularText>
-          {`I'm Always Energetic When Working With Others`}
-          <span className={st["intro__separator"]}>|</span>
-        </RegularText>
+          <RegularText>
+            "You Only Live Once, But If You Do It Right, <BreakLineXL />
+            Once Is Enough." ― Mae West
+          </RegularText>
+        </div>
 
         <RegularText>
-          Want A Short And Official Version?{" "}
+          You Can Take A Look At My Resume(CV) Here:{" "}
           <RegularLink to="/Farshad_Resume.pdf">Download Resume</RegularLink>
         </RegularText>
+
+        <RegularText>
+          You Can Also Checkout My Projects And Programming Skills On{" "}
+          <RegularLink to="https://github.com/real-farshad">
+            My Github
+          </RegularLink>
+        </RegularText>
+      </div>
+
+      <div className={st["intro__image"]}>
+        <img src="/intro.png" />
       </div>
     </div>
   );
