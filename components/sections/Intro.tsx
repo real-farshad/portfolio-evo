@@ -3,12 +3,16 @@ import PrimaryTitle from "../PrimaryTitle";
 import RegularLink from "../RegularLink";
 import RegularText from "../RegularText";
 import SecondaryTitle from "../SecondaryTitle";
-import st from "@/styles/Intro.module.scss";
+import st from "./Intro.module.scss";
 
 const Intro = () => {
   return (
     <div className={st["intro"]}>
-      <div className={st["intro__description"]}>
+      <div className={st["intro__image"]}>
+        <img src="/intro.png" />
+      </div>
+
+      <div className={st["intro__text"]}>
         <div className={st["intro__primary-title"]}>
           <PrimaryTitle>Hello There!</PrimaryTitle>
 
@@ -25,7 +29,7 @@ const Intro = () => {
           </SecondaryTitle>
         </div>
 
-        <div className={st["intro__about-me"]}>
+        <div className={st["intro__description"]}>
           <RegularText>
             I Want To Make Awesome Things Other <BreakLineXL />
             People Enjoy Using.
@@ -53,10 +57,6 @@ const Intro = () => {
             My Github
           </RegularLink>
         </RegularText>
-      </div>
-
-      <div className={st["intro__image"]}>
-        <img src="/intro.png" />
       </div>
     </div>
   );

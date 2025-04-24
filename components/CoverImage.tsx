@@ -1,4 +1,4 @@
-import st from "@/styles/CoverImage.module.scss";
+import st from "./CoverImage.module.scss";
 
 interface CoverImageProps {
   src: string;

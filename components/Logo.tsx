@@ -1,5 +1,5 @@
 import Link from "next/link";
-import st from "@/styles/Logo.module.scss";
+import st from "./Logo.module.scss";
 
 const Logo = () => {
   return (

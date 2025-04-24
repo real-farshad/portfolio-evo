@@ -1,0 +1,10 @@
+@use "../../styles/breakpoints" as *;
+
+.projects__intro {
+  margin-bottom: 115px;
+}
+
+.projects__project--first,
+.projects__project--second {
+  margin-bottom: 130px;
+}

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import st from "@/styles/ProjectTitle.module.scss";
+import st from "./ProjectTitle.module.scss";
 
 interface ProjectTitleProps {
   children: ReactNode;

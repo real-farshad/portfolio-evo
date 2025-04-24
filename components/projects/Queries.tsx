@@ -1,41 +1,37 @@
 import ProjectTitle from "../ProjectTitle";
 import RegularLink from "../RegularLink";
 import RegularText from "../RegularText";
-import st from "@/styles/SingleProject.module.scss";
+import st from "./Project.module.scss";
 
 const Queries = () => {
   return (
     <div>
-      <div className={st["single-project__primary-info"]}>
-        <div className={st["single-project__date"]}>
+      <div className={st["project__date-title-container"]}>
+        <div className={st["project__date"]}>
           <RegularText>May 2025</RegularText>
         </div>
 
-        <div className={st["single-project__project-title"]}>
+        <div className={st["project__title"]}>
           <ProjectTitle>Queries Full-Stack Web Application</ProjectTitle>
         </div>
       </div>
 
-      <div className={st["single-project__image-container"]}>
+      <div className={st["project__image"]}>
         <img src="/query.jpg" />
       </div>
 
-      <div className={st["single-project__secondary-info"]}>
-        <div className={st["single-project__links"]}>
-          <div>
-            <RegularLink to="https://github.com/real-farshad/queries-web-application">
-              Github Repository
-            </RegularLink>
-          </div>
+      <div className={st["project__text"]}>
+        <div className={st["project__links"]}>
+          <RegularLink to="https://github.com/real-farshad/queries-web-application">
+            Github Repository
+          </RegularLink>
 
-          <div>
-            <RegularLink to="https://queries-web-application.onrender.com">
-              Live Demo
-            </RegularLink>
-          </div>
+          <RegularLink to="https://queries-web-application.vercel.app">
+            Live Demo
+          </RegularLink>
         </div>
 
-        <div className={st["single-project__text"]}>
+        <div className={st["project__description"]}>
           <div>
             <RegularText>
               Front-End Was Built Using Typescript, React, Redux, Sass And Jest.
@@ -47,15 +43,13 @@ const Queries = () => {
             </RegularText>
           </div>
 
-          <div className={st["single-project__description"]}>
-            <RegularText>
-              For This Project My Goal Was To Learn More About The MERN Stack
-              And Implement Crud Operations. I Also Learned Quite A Lot About
-              Best Practices And Writing Clean Code. In Front-End I Used Redux
-              To Manage My State And Jest To Do Unit And Integration Tests For
-              Certain Components.
-            </RegularText>
-          </div>
+          <RegularText>
+            For This Project My Goal Was To Learn More About The MERN Stack And
+            Implement Crud Operations. I Also Learned Quite A Lot About Best
+            Practices And Writing Clean Code. In Front-End I Used Redux To
+            Manage My State And Jest To Do Unit And Integration Tests For
+            Certain Components.
+          </RegularText>
         </div>
       </div>
     </div>

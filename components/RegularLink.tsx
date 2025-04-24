@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import st from "@/styles/RegularLink.module.scss";
+import st from "./RegularLink.module.scss";
 
 interface RegularLinkProps {
   to: string;

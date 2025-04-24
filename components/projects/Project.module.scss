@@ -1,0 +1,44 @@
+@use "../../styles/breakpoints" as *;
+
+.project__date-title-container {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 42px;
+}
+
+.project__date {
+  margin-top: 11px;
+}
+
+.project__title {
+  max-width: 450px;
+}
+
+.project__image {
+  width: 100%;
+  margin-bottom: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  opacity: 0.87;
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+.project__text {
+  display: flex;
+}
+
+.project__links {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.project__description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

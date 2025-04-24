@@ -1,0 +1,30 @@
+@use "../../styles/breakpoints" as *;
+
+.socials {
+  position: relative;
+}
+
+.socials__image {
+  max-width: 485px;
+  position: absolute;
+  bottom: -80px;
+  left: -20px;
+
+  img {
+    max-width: 100%;
+    transform: rotate(30deg) scaleX(-1);
+  }
+}
+
+.socials__text {
+  text-align: right;
+  position: relative;
+}
+
+.socials__titles {
+  margin-bottom: 30px;
+}
+
+.socials__description {
+  margin-bottom: 30px;
+}

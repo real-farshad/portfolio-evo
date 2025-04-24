@@ -1,0 +1,24 @@
+@use "../../styles/breakpoints" as *;
+
+.contact {
+  position: relative;
+}
+
+.contact__image {
+  max-width: 410px;
+  position: absolute;
+  bottom: -75px;
+  right: -60px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.contact__text {
+  position: relative;
+}
+
+.contact__titles {
+  margin-bottom: 30px;
+}

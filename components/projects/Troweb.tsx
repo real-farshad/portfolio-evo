@@ -1,36 +1,31 @@
-import BreakLineXL from "../BreakLineXL";
 import ProjectTitle from "../ProjectTitle";
 import RegularLink from "../RegularLink";
 import RegularText from "../RegularText";
-import st from "@/styles/SingleProject.module.scss";
+import st from "./Project.module.scss";
 
 const Troweb = () => {
   return (
     <div>
-      <div className={st["single-project__primary-info"]}>
-        <div className={st["single-project__date"]}>
+      <div className={st["project__date-title-container"]}>
+        <div className={st["project__date"]}>
           <RegularText>2022 - 2023</RegularText>
         </div>
 
-        <div className={st["single-project__project-title"]}>
+        <div className={st["project__title"]}>
           <ProjectTitle>Troweb - Data Visualization Platform</ProjectTitle>
         </div>
       </div>
 
-      <div className={st["single-project__image-container"]}>
+      <div className={st["project__image"]}>
         <img src="/troweb.jpg" />
       </div>
 
-      <div className={st["single-project__secondary-info"]}>
-        <div className={st["single-project__links"]}>
-          <div>
-            <RegularLink to="https://www.troweb.com">
-              Troweb Platform
-            </RegularLink>
-          </div>
+      <div className={st["project__text"]}>
+        <div className={st["project__links"]}>
+          <RegularLink to="https://www.troweb.com">Troweb Platform</RegularLink>
         </div>
 
-        <div className={st["single-project__text"]}>
+        <div className={st["project__description"]}>
           <div>
             <RegularText>
               Technologies I Used In This Project Include TypeScript, React,
@@ -40,7 +35,7 @@ const Troweb = () => {
             </RegularText>
           </div>
 
-          <div className={st["single-project__description"]}>
+          <div>
             <RegularText>
               Troweb Is A Data Visualization SaaS Platform From{" "}
               <RegularLink to="https://www.linkedin.com/company/avid-technology-development">
@@ -52,7 +47,7 @@ const Troweb = () => {
             </RegularText>
           </div>
 
-          <div className={st["single-project__description"]}>
+          <div>
             <RegularText>
               In This Project I Worked On Building Accessible UI Components And
               Integrating Them With Remix And Next. I Also Worked On A Reusable

@@ -15,67 +15,43 @@
 }
 
 .home__blur-container {
-  padding: 5px;
-
-  @include min-width-md {
-    padding: 30px;
-  }
-
-  @include min-width-lg {
-    padding: 50px 60px;
-  }
-
-  @include min-width-xl {
-    max-width: 1366px;
-    padding: 100px;
-    padding-bottom: 80px;
-    margin: auto;
-  }
+  max-width: 1366px;
+  padding: 100px;
+  padding-bottom: 80px;
+  margin: auto;
 }
 
 .home__content-container {
   position: relative;
   padding: var(--content-space);
-  padding-bottom: 30px;
-
-  @include min-width-md {
-    padding: 30px;
-    padding-bottom: 50px;
-  }
-
-  @include min-width-lg {
-    padding: 30px 50px;
-    padding-bottom: 100px;
-  }
-
-  @include min-width-xl {
-    padding: 50px var(--content-space);
-    padding-bottom: 150px;
-  }
+  padding: 50px var(--content-space);
+  padding-bottom: 150px;
+  margin-bottom: 20px;
 }
 
-.home__copyright {
-  margin-top: 100px;
+.home__navbar {
+  margin-bottom: 65px;
+}
 
-  @include min-width-md {
-    display: none;
-  }
+.home__intro {
+  margin-bottom: 125px;
+}
+
+.home__about {
+  margin-bottom: 125px;
+}
+
+.home__projects {
+  margin-bottom: 130px;
+}
+
+.home__contact {
+  margin-bottom: 140px;
 }
 
 .home__footer {
-  margin-top: 10px;
-
-  @include min-width-md {
-    display: inline-block;
-  }
-
-  @include min-width-lg {
-    margin-top: 15px;
-  }
-
-  @include min-width-xl {
-    margin-top: 20px;
-  }
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .home__footer-text {

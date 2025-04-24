@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import st from "@/styles/PrimaryTitle.module.scss";
+import st from "./PrimaryTitle.module.scss";
 
 interface PrimaryTitleProps {
   children: ReactNode;

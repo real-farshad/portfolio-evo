@@ -1,12 +1,8 @@
-@use "breakpoints" as *;
+@use "../styles/breakpoints" as *;
 
 .blur-container {
   position: relative;
   backdrop-filter: blur(50px);
   border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-
-  @include min-width-md {
-    border-radius: 25px;
-  }
+  border-radius: 25px;
 }

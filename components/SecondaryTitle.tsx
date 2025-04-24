@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import st from "@/styles/SecondaryTitle.module.scss";
+import st from "./SecondaryTitle.module.scss";
 
 interface SecondaryTitleProps {
   children: ReactNode;

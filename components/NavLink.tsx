@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import st from "@/styles/NavLink.module.scss";
+import st from "./NavLink.module.scss";
 
 interface NavLinkProps {
   to: string;

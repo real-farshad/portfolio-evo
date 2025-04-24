@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import st from "@/styles/BlurContainer.module.scss";
+import st from "./BlurContainer.module.scss";
 
 interface BlurContainerProps {
   children: ReactNode;

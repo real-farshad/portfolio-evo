@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import st from "@/styles/RegularText.module.scss";
+import st from "./RegularText.module.scss";
 
 interface RegularTextProps {
   children: ReactNode;

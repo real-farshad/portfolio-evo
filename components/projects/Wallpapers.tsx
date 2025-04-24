@@ -1,41 +1,37 @@
 import ProjectTitle from "../ProjectTitle";
 import RegularLink from "../RegularLink";
 import RegularText from "../RegularText";
-import st from "@/styles/SingleProject.module.scss";
+import st from "./Project.module.scss";
 
 const Wallpapers = () => {
   return (
     <div>
-      <div className={st["single-project__primary-info"]}>
-        <div className={st["single-project__date"]}>
+      <div className={st["project__date-title-container"]}>
+        <div className={st["project__date"]}>
           <RegularText>March 2024</RegularText>
         </div>
 
-        <div className={st["single-project__project-title"]}>
+        <div className={st["project__title"]}>
           <ProjectTitle>Wallpapers Full-Stack Web Application</ProjectTitle>
         </div>
       </div>
 
-      <div className={st["single-project__image-container"]}>
+      <div className={st["project__image"]}>
         <img src="/wallpapers.jpg" />
       </div>
 
-      <div className={st["single-project__secondary-info"]}>
-        <div className={st["single-project__links"]}>
-          <div>
-            <RegularLink to="https://github.com/real-farshad/wallpapers-web-application">
-              Github Repository
-            </RegularLink>
-          </div>
+      <div className={st["project__text"]}>
+        <div className={st["project__links"]}>
+          <RegularLink to="https://github.com/real-farshad/wallpapers-web-application">
+            Github Repository
+          </RegularLink>
 
-          <div>
-            <RegularLink to="https://wallpapers-web-application.onrender.com">
-              Live Demo
-            </RegularLink>
-          </div>
+          <RegularLink to="https://wallpapers-web-application.vercel.app">
+            Live Demo
+          </RegularLink>
         </div>
 
-        <div className={st["single-project__text"]}>
+        <div className={st["project__description"]}>
           <div>
             <RegularText>
               Front-End Was Built Using Typescript, React React Router, Context,
@@ -48,15 +44,13 @@ const Wallpapers = () => {
             </RegularText>
           </div>
 
-          <div className={st["single-project__description"]}>
-            <RegularText>
-              My Main Focus When Building This Project Was Implementing
-              Authentication, And Popular Features Such As Saving, Liking And
-              Commenting On A Post In Full-Stack. I Also Learned A Lot About
-              Different Architectures For Back-End And Tried To Adapt Some
-              Principles From Clean Architecture.
-            </RegularText>
-          </div>
+          <RegularText>
+            My Main Focus When Building This Project Was Implementing
+            Authentication, And Popular Features Such As Saving, Liking And
+            Commenting On A Post In Full-Stack. I Also Learned A Lot About
+            Different Architectures For Back-End And Tried To Adapt Some
+            Principles From Clean Architecture.
+          </RegularText>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import ProjectsIntro from "../ProjectsIntro";
-import st from "@/styles/Projects.module.scss";
+import st from "./Projects.module.scss";
 
 import Troweb from "../projects/Troweb";
 import Wallpapers from "../projects/Wallpapers";
@@ -12,16 +12,16 @@ const Projects = () => {
         <ProjectsIntro />
       </div>
 
-      <div className={st["projects__cards"]}>
-        <div className={st["projects__single-project"]}>
+      <div>
+        <div className={st["projects__project--first"]}>
           <Troweb />
         </div>
 
-        <div className={st["projects__single-project"]}>
+        <div className={st["projects__project--second"]}>
           <Wallpapers />
         </div>
 
-        <div className={st["projects__single-project"]}>
+        <div>
           <Queries />
         </div>
       </div>

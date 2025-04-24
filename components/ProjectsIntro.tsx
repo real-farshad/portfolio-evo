@@ -3,7 +3,7 @@ import PrimaryTitle from "./PrimaryTitle";
 import SecondaryTitle from "./SecondaryTitle";
 import RegularLink from "./RegularLink";
 import BreakLineXL from "./BreakLineXL";
-import st from "@/styles/ProjectsIntro.module.scss";
+import st from "./ProjectsIntro.module.scss";
 
 const ProjectsIntro = () => {
   return (

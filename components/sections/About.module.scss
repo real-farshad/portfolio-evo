@@ -1,0 +1,23 @@
+@use "../../styles/breakpoints" as *;
+
+.about {
+  position: relative;
+}
+
+.about__image {
+  max-width: 500px;
+  position: absolute;
+  right: -100px;
+  top: -40px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.about__text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

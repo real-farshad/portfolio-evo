@@ -5,7 +5,7 @@ import { useState } from "react";
 import Logo from "./Logo";
 import NavLink from "./NavLink";
 import RegularBtn from "./RegularBtn";
-import st from "@/styles/Navbar.module.scss";
+import st from "./Navbar.module.scss";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

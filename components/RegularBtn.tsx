@@ -1,4 +1,4 @@
-import st from "@/styles/RegularBtn.module.scss";
+import st from "./RegularBtn.module.scss";
 import { ReactNode } from "react";
 
 interface RegularBtnProps {

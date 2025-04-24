@@ -20,19 +20,31 @@ const Home = () => {
         <BlurContainer>
           <div className={st["home__content-container"]}>
             <header>
-              <Navbar />
+              <div className={st["home__navbar"]}>
+                <Navbar />
+              </div>
 
-              <Intro />
+              <div className={st["home__intro"]}>
+                <Intro />
+              </div>
             </header>
 
             <main>
-              <About />
+              <div className={st["home__about"]}>
+                <About />
+              </div>
 
-              <Projects />
+              <div className={st["home__projects"]}>
+                <Projects />
+              </div>
 
-              <Contact />
+              <div className={st["home__contact"]}>
+                <Contact />
+              </div>
 
-              <Socials />
+              <div className={st["home__socials"]}>
+                <Socials />
+              </div>
             </main>
           </div>
         </BlurContainer>
