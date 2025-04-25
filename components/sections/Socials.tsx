@@ -16,7 +16,9 @@ const Socials = () => {
         <div className={st["socials__titles"]}>
           <PrimaryTitle>MY SOCIALS</PrimaryTitle>
 
-          <SecondaryTitle>{`Other Places To Find Me In`}</SecondaryTitle>
+          <div className={st["socials__secondary-title"]}>
+            <SecondaryTitle>{`Other Places To Find Me In`}</SecondaryTitle>
+          </div>
         </div>
 
         <div className={st["socials__description"]}>

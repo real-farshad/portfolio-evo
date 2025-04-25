@@ -52,7 +52,12 @@ const Home = () => {
         <footer className={st["home__footer"]}>
           <BlurContainer>
             <div className={st["home__footer-text"]}>
-              <RegularText>Designed And Developed By real-farshad</RegularText>
+              <RegularText>
+                <span className={st["home__footer-large-text"]}>
+                  Designed And{" "}
+                </span>
+                Developed By real-farshad
+              </RegularText>
             </div>
           </BlurContainer>
         </footer>

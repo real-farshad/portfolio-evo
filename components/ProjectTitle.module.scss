@@ -1,9 +1,13 @@
 @use "../styles/breakpoints" as *;
 
 .project-title {
-  font-size: 40px;
+  font-size: 24px;
   font-weight: var(--medium-font-weight);
   line-height: 1.25;
   color: var(--primary-text-color);
   opacity: var(--primary-text-opacity);
+
+  @include min-width-md {
+    font-size: 40px;
+  }
 }

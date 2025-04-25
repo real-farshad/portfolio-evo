@@ -13,8 +13,15 @@ const Intro = () => {
       </div>
 
       <div className={st["intro__text"]}>
-        <div className={st["intro__primary-title"]}>
-          <PrimaryTitle>Hello There!</PrimaryTitle>
+        <div className={st["intro__opening"]}>
+          <div className={st["intro__hello-large"]}>
+            <PrimaryTitle>HELLO THERE!</PrimaryTitle>
+          </div>
+
+          <div className={st["intro__hello-small"]}>
+            <div>HELLO</div>
+            <div>THERE!</div>
+          </div>
 
           <SecondaryTitle>
             My Name Is Mohammad Reza Gholami <BreakLineXL />
@@ -22,7 +29,7 @@ const Intro = () => {
           </SecondaryTitle>
         </div>
 
-        <div className={st["intro__secondary-title"]}>
+        <div className={st["intro__profession"]}>
           <SecondaryTitle>
             I'm A Software Engineer And <BreakLineXL />
             This Is My Portfolio

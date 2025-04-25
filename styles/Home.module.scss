@@ -16,42 +16,85 @@
 
 .home__blur-container {
   max-width: 1366px;
-  padding: 100px;
-  padding-bottom: 80px;
+  padding: 10px;
   margin: auto;
+
+  @include min-width-md {
+    padding: 25px;
+  }
+
+  @include min-width-xl {
+    padding: 100px;
+    padding-bottom: 80px;
+  }
 }
 
 .home__content-container {
   position: relative;
-  padding: var(--content-space);
-  padding: 50px var(--content-space);
-  padding-bottom: 150px;
-  margin-bottom: 20px;
+  padding: 11px 16px 20px 16px;
+
+  @include min-width-md {
+    padding: 50px 100px 150px 100px;
+  }
 }
 
 .home__navbar {
-  margin-bottom: 65px;
+  margin-bottom: 20px;
+
+  @include min-width-md {
+    margin-bottom: 65px;
+  }
 }
 
 .home__intro {
-  margin-bottom: 125px;
+  margin-bottom: 80px;
+
+  @include min-width-md {
+    margin-bottom: 125px;
+  }
 }
 
 .home__about {
-  margin-bottom: 125px;
+  margin-bottom: 90px;
+
+  @include min-width-md {
+    margin-bottom: 125px;
+  }
 }
 
 .home__projects {
-  margin-bottom: 130px;
+  margin-bottom: 80px;
+
+  @include min-width-md {
+    margin-bottom: 130px;
+  }
 }
 
 .home__contact {
-  margin-bottom: 140px;
+  margin-bottom: 105px;
+
+  @include min-width-md {
+    margin-bottom: 140px;
+  }
 }
 
 .home__footer {
   display: inline-block;
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 10px;
+
+  @include min-width-md {
+    width: auto;
+    margin-top: 20px;
+  }
+}
+
+.home__footer-large-text {
+  display: none;
+
+  @include min-width-md {
+    display: inline;
+  }
 }
 
 .home__footer-text {

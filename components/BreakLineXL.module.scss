@@ -1,9 +1,9 @@
 @use "../styles/breakpoints" as *;
 
-.break-line-xl {
+.line-break-xl {
   display: none;
 
-  @include min-width-xl {
+  @include min-width-lg {
     display: block;
   }
 }

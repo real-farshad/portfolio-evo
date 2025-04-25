@@ -3,7 +3,7 @@
 :root {
   /* Font sizes */
   --regular-font-size: 18px;
-  --primary-title-font-size: 34px;
+  --primary-title-font-size: 46px;
   --secondary-title-font-size: 24px;
 
   /* Font weights */
@@ -21,12 +21,13 @@
   --primary-text-color: var(--white);
 
   /* Paddings */
-  --content-space: 24px;
+  --content-space: 16px;
 
   /* Opacities */
   --primary-text-opacity: 0.87;
 
   @include min-width-md {
+    --content-space: 24px;
     --primary-title-font-size: 44px;
     --secondary-title-font-size: 22px;
   }

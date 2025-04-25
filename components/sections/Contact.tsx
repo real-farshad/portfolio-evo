@@ -16,7 +16,9 @@ const Contact = () => {
         <div className={st["contact__titles"]}>
           <PrimaryTitle>CONTACT ME</PrimaryTitle>
 
-          <SecondaryTitle>{`I Promise I'll Respond As Soon As I Can`}</SecondaryTitle>
+          <div className={st["contact__secondary-title"]}>
+            <SecondaryTitle>{`I Promise I'll Respond As Soon As I Can`}</SecondaryTitle>
+          </div>
         </div>
 
         <div>

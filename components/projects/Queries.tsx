@@ -16,8 +16,10 @@ const Queries = () => {
         </div>
       </div>
 
-      <div className={st["project__image"]}>
-        <img src="/query.jpg" />
+      <div className={st["project__image-container"]}>
+        <img className={st["project__image-large"]} src="/queries-large.jpg" />
+
+        <img className={st["project__image-small"]} src="/queries-small.jpg" />
       </div>
 
       <div className={st["project__text"]}>

@@ -2,8 +2,14 @@
 
 .project__date-title-container {
   display: flex;
-  gap: 50px;
-  margin-bottom: 42px;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  @include min-width-md {
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 42px;
+  }
 }
 
 .project__date {
@@ -14,31 +20,67 @@
   max-width: 450px;
 }
 
-.project__image {
+.project__image-container {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   overflow: hidden;
   opacity: 0.87;
 
   img {
+    width: 100%;
+  }
+
+  @include min-width-md {
+    margin-bottom: 30px;
+  }
+}
+
+.project__image-large {
+  display: none;
+
+  @include min-width-md {
     display: block;
-    max-width: 100%;
+  }
+}
+
+.project__image-small {
+  display: block;
+
+  @include min-width-md {
+    display: none;
   }
 }
 
 .project__text {
   display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+
+  @include min-width-xl {
+    flex-direction: row;
+    gap: 0;
+  }
 }
 
 .project__links {
-  width: 250px;
-  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+
+  @include min-width-md {
+    display: block;
+    width: 250px;
+    flex-shrink: 0;
+  }
 }
 
 .project__description {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+
+  @include min-width-md {
+    gap: 20px;
+  }
 }

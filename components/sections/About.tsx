@@ -19,12 +19,14 @@ const About = () => {
         <div className={st["about__titles"]}>
           <PrimaryTitle>ABOUT ME</PrimaryTitle>
 
-          <SecondaryTitle>
-            Things That You Might Be Interested In!
-          </SecondaryTitle>
+          <div className={st["about__secondary-title"]}>
+            <SecondaryTitle>
+              Things That You Might Be Interested In!
+            </SecondaryTitle>
+          </div>
         </div>
 
-        <div>
+        <div className={st["about__description"]}>
           <RegularText>
             I'm A {age} Years Old Full-Stack Web Developer. <BreakLineXL />I
             Love Programming, Solving Problems And Learning <BreakLineXL />
@@ -34,7 +36,7 @@ const About = () => {
           </RegularText>
         </div>
 
-        <div>
+        <div className={st["about__skills"]}>
           <RegularText>Some Of My Skills Are:</RegularText>
 
           <RegularText>
