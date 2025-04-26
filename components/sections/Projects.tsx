@@ -14,7 +14,7 @@ const Projects = () => {
     <div className={st["projects"]} id="projects">
       <div className={st["projects__intro"]}>
         <div className={st["projects__image"]}>
-          <img src="/projects-intro-image.png" />
+          <img src="/projects.png" />
         </div>
 
         <div className={st["projects__text"]}>

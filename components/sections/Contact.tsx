@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className={st["contact"]} id="contact">
       <div className={st["contact__image"]}>
-        <img src="/ghost.png" />
+        <img src="/contact.png" />
       </div>
 
       <div className={st["contact__text"]}>

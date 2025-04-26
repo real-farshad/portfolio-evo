@@ -9,7 +9,7 @@ const Socials = () => {
   return (
     <div className={st["socials"]} id="socials">
       <div className={st["socials__image"]}>
-        <img src="/fire.png" />
+        <img src="/socials.png" />
       </div>
 
       <div className={st["socials__text"]}>

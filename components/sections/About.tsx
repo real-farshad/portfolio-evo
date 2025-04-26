@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className={st["about"]} id="about">
       <div className={st["about__image"]}>
-        <img src="/dragon.png" />
+        <img src="/about.png" />
       </div>
 
       <div className={st["about__text"]}>
