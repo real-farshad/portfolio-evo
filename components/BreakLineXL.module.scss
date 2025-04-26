@@ -3,7 +3,7 @@
 .line-break-xl {
   display: none;
 
-  @include min-width-lg {
+  @include min-width-md {
     display: block;
   }
 }

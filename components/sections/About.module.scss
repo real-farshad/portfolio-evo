@@ -14,13 +14,19 @@
   pointer-events: none;
 
   @include min-width-md {
-    width: 500px;
+    width: 460px;
     top: unset;
-    right: -100px;
-    top: -40px;
+    right: -80px;
+    top: -50px;
     transform: none;
     z-index: auto;
     pointer-events: auto;
+  }
+
+  @include min-width-lg {
+    width: 500px;
+    right: -100px;
+    top: -40px;
   }
 
   img {

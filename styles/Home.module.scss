@@ -23,6 +23,10 @@
     padding: 25px;
   }
 
+  @include min-width-lg {
+    padding: 40px;
+  }
+
   @include min-width-xl {
     padding: 100px;
     padding-bottom: 80px;
@@ -34,6 +38,14 @@
   padding: 11px 16px 20px 16px;
 
   @include min-width-md {
+    padding: 20px 30px 50px 30px;
+  }
+
+  @include min-width-lg {
+    padding: 40px 60px 100px 60px;
+  }
+
+  @include min-width-xl {
     padding: 50px 100px 150px 100px;
   }
 }
@@ -42,6 +54,14 @@
   margin-bottom: 20px;
 
   @include min-width-md {
+    margin-bottom: 45px;
+  }
+
+  @include min-width-lg {
+    margin-bottom: 50px;
+  }
+
+  @include min-width-xl {
     margin-bottom: 65px;
   }
 }
@@ -50,6 +70,14 @@
   margin-bottom: 80px;
 
   @include min-width-md {
+    margin-bottom: 85px;
+  }
+
+  @include min-width-lg {
+    margin-bottom: 100px;
+  }
+
+  @include min-width-xl {
     margin-bottom: 125px;
   }
 }
@@ -58,6 +86,14 @@
   margin-bottom: 90px;
 
   @include min-width-md {
+    margin-bottom: 85px;
+  }
+
+  @include min-width-lg {
+    margin-bottom: 100px;
+  }
+
+  @include min-width-xl {
     margin-bottom: 125px;
   }
 }
@@ -66,6 +102,14 @@
   margin-bottom: 80px;
 
   @include min-width-md {
+    margin-bottom: 80px;
+  }
+
+  @include min-width-lg {
+    margin-bottom: 90px;
+  }
+
+  @include min-width-xl {
     margin-bottom: 130px;
   }
 }
@@ -74,6 +118,14 @@
   margin-bottom: 105px;
 
   @include min-width-md {
+    margin-bottom: 80px;
+  }
+
+  @include min-width-lg {
+    margin-bottom: 95px;
+  }
+
+  @include min-width-xl {
     margin-bottom: 140px;
   }
 }

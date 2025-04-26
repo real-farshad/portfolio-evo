@@ -5,6 +5,14 @@
   margin-bottom: 50px;
 
   @include min-width-md {
+    margin-bottom: 55px;
+  }
+
+  @include min-width-lg {
+    margin-bottom: 80px;
+  }
+
+  @include min-width-xl {
     margin-bottom: 115px;
   }
 }
@@ -19,13 +27,19 @@
   pointer-events: none;
 
   @include min-width-md {
-    width: 552px;
+    width: 480px;
     top: unset;
-    bottom: -30px;
+    bottom: -15px;
     left: -55px;
     transform: none;
     z-index: auto;
     pointer-events: auto;
+  }
+
+  @include min-width-lg {
+    width: 552px;
+    bottom: -30px;
+    left: -55px;
   }
 
   img {
@@ -72,6 +86,14 @@
   margin-bottom: 50px;
 
   @include min-width-md {
+    margin-bottom: 55px;
+  }
+
+  @include min-width-lg {
+    margin-bottom: 65px;
+  }
+
+  @include min-width-xl {
     margin-bottom: 130px;
   }
 }

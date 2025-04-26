@@ -8,6 +8,10 @@
   @include min-width-md {
     flex-direction: row;
     gap: 50px;
+    margin-bottom: 22px;
+  }
+
+  @include min-width-lg {
     margin-bottom: 42px;
   }
 }
@@ -21,19 +25,30 @@
 }
 
 .project__image-container {
-  width: 100%;
+  width: fit-content;
+  margin: auto;
   margin-bottom: 15px;
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   overflow: hidden;
   opacity: 0.87;
 
-  img {
+  @include min-width-md {
     width: 100%;
+    margin-bottom: 20px;
   }
 
-  @include min-width-md {
+  @include min-width-lg {
     margin-bottom: 30px;
+  }
+
+  img {
+    max-width: 100%;
+
+    @include min-width-md {
+      max-width: none;
+      width: 100%;
+    }
   }
 }
 
@@ -80,7 +95,7 @@
   flex-direction: column;
   gap: 10px;
 
-  @include min-width-md {
+  @include min-width-lg {
     gap: 20px;
   }
 }
