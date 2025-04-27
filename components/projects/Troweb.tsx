@@ -17,9 +17,15 @@ const Troweb = () => {
       </div>
 
       <div className={st["project__image-container"]}>
-        <img className={st["project__image-large"]} src="/troweb-large.jpg" />
+        <img
+          className={st["project__image-large"]}
+          src="/projects/troweb-large.jpg"
+        />
 
-        <img className={st["project__image-small"]} src="/troweb-small.jpg" />
+        <img
+          className={st["project__image-small"]}
+          src="/projects/troweb-small.jpg"
+        />
       </div>
 
       <div className={st["project__text"]}>

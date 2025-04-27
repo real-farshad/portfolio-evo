@@ -19,12 +19,12 @@ const Wallpapers = () => {
       <div className={st["project__image-container"]}>
         <img
           className={st["project__image-large"]}
-          src="/wallpapers-large.jpg"
+          src="/projects/wallpapers-large.jpg"
         />
 
         <img
           className={st["project__image-small"]}
-          src="/wallpapers-small.jpg"
+          src="/projects/wallpapers-small.jpg"
         />
       </div>
 
