@@ -1,4 +1,4 @@
-# Portfolio V1.0
+# Portfolio Evo
 
 Live demo: [real-farshad.vercel.app](https://real-farshad.vercel.app)
 
@@ -6,7 +6,7 @@ This is my single page, next.js, portfolio web application.I'm a software engine
 
 ## Technologies
 
-- Javascript
+- Typescript
 - Next.js
 - Sass
 
