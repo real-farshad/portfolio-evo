@@ -2,7 +2,7 @@
 
 Live demo: [real-farshad.vercel.app](https://real-farshad.vercel.app)
 
-This is my single page, next.js, portfolio web application.I'm a software engineer and a full-stack web developer. In my portfolio website you can read about my experience, my skills, and some other related information about me. You can also check out my single page, pdf, [Resume](https://farshad-dev.vercel.app/Farshad_Resume.pdf).
+This is my single page, next.js, portfolio web application. I'm a software engineer and a full-stack web developer. In my portfolio website you can read about my experience, my skills, and some other related information about me. You can also check out my single page, pdf, [Resume](https://farshad-dev.vercel.app/Farshad_Resume.pdf).
 
 ## Technologies
 

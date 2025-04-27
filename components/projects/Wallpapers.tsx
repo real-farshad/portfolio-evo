@@ -8,7 +8,7 @@ const Wallpapers = () => {
     <div>
       <div className={st["project__date-title-container"]}>
         <div className={st["project__date"]}>
-          <RegularText>March 2024</RegularText>
+          <RegularText>July 2024</RegularText>
         </div>
 
         <div className={st["project__title"]}>
@@ -42,8 +42,8 @@ const Wallpapers = () => {
         <div className={st["project__description"]}>
           <div>
             <RegularText>
-              Front-End Was Built Using Typescript, React React Router, Context,
-              Sass.
+              Front-End Was Built Using Typescript, React, React Router,
+              Context, Sass.
             </RegularText>
 
             <RegularText>

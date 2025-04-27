@@ -43,7 +43,7 @@ const Intro = () => {
           </RegularText>
 
           <RegularText>
-            I'd Love To Work In A Team And make Even More <BreakLineXL />
+            I'd Love To Work In A Team And Make Even More <BreakLineXL />
             Amazing Stuff While Having Fun Doing It.
           </RegularText>
 

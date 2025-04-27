@@ -8,7 +8,7 @@ const Queries = () => {
     <div>
       <div className={st["project__date-title-container"]}>
         <div className={st["project__date"]}>
-          <RegularText>May 2025</RegularText>
+          <RegularText>March 2025</RegularText>
         </div>
 
         <div className={st["project__title"]}>
